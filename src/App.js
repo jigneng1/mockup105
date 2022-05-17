@@ -6,6 +6,7 @@ import {
     Routes,
     Route,
   } from "react-router-dom";
+import React from 'react';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Main />}/>
           <Route path="/todo" element={<Todo />} />
           </Routes>
+          
       </div>
   );
 }
